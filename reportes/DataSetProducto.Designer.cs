@@ -281,39 +281,17 @@ namespace RDLC_Csharp.reportes {
             
             private global::System.Data.DataColumn columnCODIGO;
             
-            private global::System.Data.DataColumn columnALMACEN;
-            
-            private global::System.Data.DataColumn columnLOTE;
-            
-            private global::System.Data.DataColumn columnCLASE;
-            
-            private global::System.Data.DataColumn columnCANTIDAD;
-            
             private global::System.Data.DataColumn columnVENCE;
             
             private global::System.Data.DataColumn columnCOSTO;
             
             private global::System.Data.DataColumn columnPRECIO;
             
-            private global::System.Data.DataColumn columnDEPOSITO;
-            
-            private global::System.Data.DataColumn columnEQUIPO;
-            
-            private global::System.Data.DataColumn columnSECCION;
-            
-            private global::System.Data.DataColumn columnCANTIDAD2;
-            
             private global::System.Data.DataColumn columnNOMBRE;
             
-            private global::System.Data.DataColumn columnREFERENCIA;
-            
-            private global::System.Data.DataColumn columnMAXIMO;
-            
-            private global::System.Data.DataColumn columnMINIMO;
-            
-            private global::System.Data.DataColumn columnPRINCIPIO;
-            
             private global::System.Data.DataColumn columnCODID;
+            
+            private global::System.Data.DataColumn columnExpr1;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
@@ -358,38 +336,6 @@ namespace RDLC_Csharp.reportes {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn ALMACENColumn {
-                get {
-                    return this.columnALMACEN;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn LOTEColumn {
-                get {
-                    return this.columnLOTE;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn CLASEColumn {
-                get {
-                    return this.columnCLASE;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn CANTIDADColumn {
-                get {
-                    return this.columnCANTIDAD;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public global::System.Data.DataColumn VENCEColumn {
                 get {
                     return this.columnVENCE;
@@ -414,38 +360,6 @@ namespace RDLC_Csharp.reportes {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn DEPOSITOColumn {
-                get {
-                    return this.columnDEPOSITO;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn EQUIPOColumn {
-                get {
-                    return this.columnEQUIPO;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn SECCIONColumn {
-                get {
-                    return this.columnSECCION;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn CANTIDAD2Column {
-                get {
-                    return this.columnCANTIDAD2;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public global::System.Data.DataColumn NOMBREColumn {
                 get {
                     return this.columnNOMBRE;
@@ -454,41 +368,17 @@ namespace RDLC_Csharp.reportes {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn REFERENCIAColumn {
-                get {
-                    return this.columnREFERENCIA;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn MAXIMOColumn {
-                get {
-                    return this.columnMAXIMO;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn MINIMOColumn {
-                get {
-                    return this.columnMINIMO;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn PRINCIPIOColumn {
-                get {
-                    return this.columnPRINCIPIO;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public global::System.Data.DataColumn CODIDColumn {
                 get {
                     return this.columnCODID;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn Expr1Column {
+                get {
+                    return this.columnExpr1;
                 }
             }
             
@@ -529,44 +419,16 @@ namespace RDLC_Csharp.reportes {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public EXISTENCIARow AddEXISTENCIARow(
-                        string CODIGO, 
-                        string ALMACEN, 
-                        string LOTE, 
-                        string CLASE, 
-                        decimal CANTIDAD, 
-                        System.DateTime VENCE, 
-                        decimal COSTO, 
-                        decimal PRECIO, 
-                        string DEPOSITO, 
-                        string EQUIPO, 
-                        string SECCION, 
-                        decimal CANTIDAD2, 
-                        string NOMBRE, 
-                        string REFERENCIA, 
-                        decimal MAXIMO, 
-                        decimal MINIMO, 
-                        string PRINCIPIO) {
+            public EXISTENCIARow AddEXISTENCIARow(string CODIGO, System.DateTime VENCE, decimal COSTO, decimal PRECIO, string NOMBRE, string Expr1) {
                 EXISTENCIARow rowEXISTENCIARow = ((EXISTENCIARow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         CODIGO,
-                        ALMACEN,
-                        LOTE,
-                        CLASE,
-                        CANTIDAD,
                         VENCE,
                         COSTO,
                         PRECIO,
-                        DEPOSITO,
-                        EQUIPO,
-                        SECCION,
-                        CANTIDAD2,
                         NOMBRE,
-                        REFERENCIA,
-                        MAXIMO,
-                        MINIMO,
-                        PRINCIPIO,
-                        null};
+                        null,
+                        Expr1};
                 rowEXISTENCIARow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowEXISTENCIARow);
                 return rowEXISTENCIARow;
@@ -590,23 +452,12 @@ namespace RDLC_Csharp.reportes {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             internal void InitVars() {
                 this.columnCODIGO = base.Columns["CODIGO"];
-                this.columnALMACEN = base.Columns["ALMACEN"];
-                this.columnLOTE = base.Columns["LOTE"];
-                this.columnCLASE = base.Columns["CLASE"];
-                this.columnCANTIDAD = base.Columns["CANTIDAD"];
                 this.columnVENCE = base.Columns["VENCE"];
                 this.columnCOSTO = base.Columns["COSTO"];
                 this.columnPRECIO = base.Columns["PRECIO"];
-                this.columnDEPOSITO = base.Columns["DEPOSITO"];
-                this.columnEQUIPO = base.Columns["EQUIPO"];
-                this.columnSECCION = base.Columns["SECCION"];
-                this.columnCANTIDAD2 = base.Columns["CANTIDAD2"];
                 this.columnNOMBRE = base.Columns["NOMBRE"];
-                this.columnREFERENCIA = base.Columns["REFERENCIA"];
-                this.columnMAXIMO = base.Columns["MAXIMO"];
-                this.columnMINIMO = base.Columns["MINIMO"];
-                this.columnPRINCIPIO = base.Columns["PRINCIPIO"];
                 this.columnCODID = base.Columns["CODID"];
+                this.columnExpr1 = base.Columns["Expr1"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -614,55 +465,27 @@ namespace RDLC_Csharp.reportes {
             private void InitClass() {
                 this.columnCODIGO = new global::System.Data.DataColumn("CODIGO", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnCODIGO);
-                this.columnALMACEN = new global::System.Data.DataColumn("ALMACEN", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnALMACEN);
-                this.columnLOTE = new global::System.Data.DataColumn("LOTE", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnLOTE);
-                this.columnCLASE = new global::System.Data.DataColumn("CLASE", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnCLASE);
-                this.columnCANTIDAD = new global::System.Data.DataColumn("CANTIDAD", typeof(decimal), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnCANTIDAD);
                 this.columnVENCE = new global::System.Data.DataColumn("VENCE", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnVENCE);
                 this.columnCOSTO = new global::System.Data.DataColumn("COSTO", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnCOSTO);
                 this.columnPRECIO = new global::System.Data.DataColumn("PRECIO", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnPRECIO);
-                this.columnDEPOSITO = new global::System.Data.DataColumn("DEPOSITO", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnDEPOSITO);
-                this.columnEQUIPO = new global::System.Data.DataColumn("EQUIPO", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnEQUIPO);
-                this.columnSECCION = new global::System.Data.DataColumn("SECCION", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnSECCION);
-                this.columnCANTIDAD2 = new global::System.Data.DataColumn("CANTIDAD2", typeof(decimal), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnCANTIDAD2);
                 this.columnNOMBRE = new global::System.Data.DataColumn("NOMBRE", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnNOMBRE);
-                this.columnREFERENCIA = new global::System.Data.DataColumn("REFERENCIA", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnREFERENCIA);
-                this.columnMAXIMO = new global::System.Data.DataColumn("MAXIMO", typeof(decimal), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnMAXIMO);
-                this.columnMINIMO = new global::System.Data.DataColumn("MINIMO", typeof(decimal), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnMINIMO);
-                this.columnPRINCIPIO = new global::System.Data.DataColumn("PRINCIPIO", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnPRINCIPIO);
                 this.columnCODID = new global::System.Data.DataColumn("CODID", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnCODID);
+                this.columnExpr1 = new global::System.Data.DataColumn("Expr1", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnExpr1);
                 this.columnCODIGO.MaxLength = 17;
-                this.columnALMACEN.MaxLength = 17;
-                this.columnLOTE.MaxLength = 20;
-                this.columnCLASE.MaxLength = 17;
-                this.columnDEPOSITO.MaxLength = 17;
-                this.columnEQUIPO.MaxLength = 17;
-                this.columnSECCION.MaxLength = 17;
                 this.columnNOMBRE.MaxLength = 100;
-                this.columnREFERENCIA.MaxLength = 20;
-                this.columnPRINCIPIO.MaxLength = 60;
                 this.columnCODID.AutoIncrement = true;
                 this.columnCODID.AutoIncrementSeed = -1;
                 this.columnCODID.AutoIncrementStep = -1;
                 this.columnCODID.AllowDBNull = false;
                 this.columnCODID.ReadOnly = true;
+                this.columnExpr1.AllowDBNull = false;
+                this.columnExpr1.MaxLength = 17;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -821,70 +644,6 @@ namespace RDLC_Csharp.reportes {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string ALMACEN {
-                get {
-                    try {
-                        return ((string)(this[this.tableEXISTENCIA.ALMACENColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'ALMACEN\' de la tabla \'EXISTENCIA\' es DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableEXISTENCIA.ALMACENColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string LOTE {
-                get {
-                    try {
-                        return ((string)(this[this.tableEXISTENCIA.LOTEColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'LOTE\' de la tabla \'EXISTENCIA\' es DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableEXISTENCIA.LOTEColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string CLASE {
-                get {
-                    try {
-                        return ((string)(this[this.tableEXISTENCIA.CLASEColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'CLASE\' de la tabla \'EXISTENCIA\' es DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableEXISTENCIA.CLASEColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public decimal CANTIDAD {
-                get {
-                    try {
-                        return ((decimal)(this[this.tableEXISTENCIA.CANTIDADColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'CANTIDAD\' de la tabla \'EXISTENCIA\' es DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableEXISTENCIA.CANTIDADColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public System.DateTime VENCE {
                 get {
                     try {
@@ -933,70 +692,6 @@ namespace RDLC_Csharp.reportes {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string DEPOSITO {
-                get {
-                    try {
-                        return ((string)(this[this.tableEXISTENCIA.DEPOSITOColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'DEPOSITO\' de la tabla \'EXISTENCIA\' es DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableEXISTENCIA.DEPOSITOColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string EQUIPO {
-                get {
-                    try {
-                        return ((string)(this[this.tableEXISTENCIA.EQUIPOColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'EQUIPO\' de la tabla \'EXISTENCIA\' es DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableEXISTENCIA.EQUIPOColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string SECCION {
-                get {
-                    try {
-                        return ((string)(this[this.tableEXISTENCIA.SECCIONColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'SECCION\' de la tabla \'EXISTENCIA\' es DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableEXISTENCIA.SECCIONColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public decimal CANTIDAD2 {
-                get {
-                    try {
-                        return ((decimal)(this[this.tableEXISTENCIA.CANTIDAD2Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'CANTIDAD2\' de la tabla \'EXISTENCIA\' es DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableEXISTENCIA.CANTIDAD2Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public string NOMBRE {
                 get {
                     try {
@@ -1013,76 +708,23 @@ namespace RDLC_Csharp.reportes {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string REFERENCIA {
-                get {
-                    try {
-                        return ((string)(this[this.tableEXISTENCIA.REFERENCIAColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'REFERENCIA\' de la tabla \'EXISTENCIA\' es DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableEXISTENCIA.REFERENCIAColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public decimal MAXIMO {
-                get {
-                    try {
-                        return ((decimal)(this[this.tableEXISTENCIA.MAXIMOColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'MAXIMO\' de la tabla \'EXISTENCIA\' es DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableEXISTENCIA.MAXIMOColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public decimal MINIMO {
-                get {
-                    try {
-                        return ((decimal)(this[this.tableEXISTENCIA.MINIMOColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'MINIMO\' de la tabla \'EXISTENCIA\' es DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableEXISTENCIA.MINIMOColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string PRINCIPIO {
-                get {
-                    try {
-                        return ((string)(this[this.tableEXISTENCIA.PRINCIPIOColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'PRINCIPIO\' de la tabla \'EXISTENCIA\' es DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableEXISTENCIA.PRINCIPIOColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public decimal CODID {
                 get {
                     return ((decimal)(this[this.tableEXISTENCIA.CODIDColumn]));
                 }
                 set {
                     this[this.tableEXISTENCIA.CODIDColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string Expr1 {
+                get {
+                    return ((string)(this[this.tableEXISTENCIA.Expr1Column]));
+                }
+                set {
+                    this[this.tableEXISTENCIA.Expr1Column] = value;
                 }
             }
             
@@ -1096,54 +738,6 @@ namespace RDLC_Csharp.reportes {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetCODIGONull() {
                 this[this.tableEXISTENCIA.CODIGOColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsALMACENNull() {
-                return this.IsNull(this.tableEXISTENCIA.ALMACENColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetALMACENNull() {
-                this[this.tableEXISTENCIA.ALMACENColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsLOTENull() {
-                return this.IsNull(this.tableEXISTENCIA.LOTEColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetLOTENull() {
-                this[this.tableEXISTENCIA.LOTEColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsCLASENull() {
-                return this.IsNull(this.tableEXISTENCIA.CLASEColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetCLASENull() {
-                this[this.tableEXISTENCIA.CLASEColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsCANTIDADNull() {
-                return this.IsNull(this.tableEXISTENCIA.CANTIDADColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetCANTIDADNull() {
-                this[this.tableEXISTENCIA.CANTIDADColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1184,54 +778,6 @@ namespace RDLC_Csharp.reportes {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsDEPOSITONull() {
-                return this.IsNull(this.tableEXISTENCIA.DEPOSITOColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetDEPOSITONull() {
-                this[this.tableEXISTENCIA.DEPOSITOColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsEQUIPONull() {
-                return this.IsNull(this.tableEXISTENCIA.EQUIPOColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetEQUIPONull() {
-                this[this.tableEXISTENCIA.EQUIPOColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsSECCIONNull() {
-                return this.IsNull(this.tableEXISTENCIA.SECCIONColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetSECCIONNull() {
-                this[this.tableEXISTENCIA.SECCIONColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsCANTIDAD2Null() {
-                return this.IsNull(this.tableEXISTENCIA.CANTIDAD2Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetCANTIDAD2Null() {
-                this[this.tableEXISTENCIA.CANTIDAD2Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool IsNOMBRENull() {
                 return this.IsNull(this.tableEXISTENCIA.NOMBREColumn);
             }
@@ -1240,54 +786,6 @@ namespace RDLC_Csharp.reportes {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetNOMBRENull() {
                 this[this.tableEXISTENCIA.NOMBREColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsREFERENCIANull() {
-                return this.IsNull(this.tableEXISTENCIA.REFERENCIAColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetREFERENCIANull() {
-                this[this.tableEXISTENCIA.REFERENCIAColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsMAXIMONull() {
-                return this.IsNull(this.tableEXISTENCIA.MAXIMOColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetMAXIMONull() {
-                this[this.tableEXISTENCIA.MAXIMOColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsMINIMONull() {
-                return this.IsNull(this.tableEXISTENCIA.MINIMOColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetMINIMONull() {
-                this[this.tableEXISTENCIA.MINIMOColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsPRINCIPIONull() {
-                return this.IsNull(this.tableEXISTENCIA.PRINCIPIOColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetPRINCIPIONull() {
-                this[this.tableEXISTENCIA.PRINCIPIOColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -1451,45 +949,13 @@ namespace RDLC_Csharp.reportes.DataSetProductoTableAdapters {
             tableMapping.SourceTable = "Table";
             tableMapping.DataSetTable = "EXISTENCIA";
             tableMapping.ColumnMappings.Add("CODIGO", "CODIGO");
-            tableMapping.ColumnMappings.Add("ALMACEN", "ALMACEN");
-            tableMapping.ColumnMappings.Add("LOTE", "LOTE");
-            tableMapping.ColumnMappings.Add("CLASE", "CLASE");
-            tableMapping.ColumnMappings.Add("CANTIDAD", "CANTIDAD");
             tableMapping.ColumnMappings.Add("VENCE", "VENCE");
             tableMapping.ColumnMappings.Add("COSTO", "COSTO");
             tableMapping.ColumnMappings.Add("PRECIO", "PRECIO");
-            tableMapping.ColumnMappings.Add("DEPOSITO", "DEPOSITO");
-            tableMapping.ColumnMappings.Add("EQUIPO", "EQUIPO");
-            tableMapping.ColumnMappings.Add("SECCION", "SECCION");
-            tableMapping.ColumnMappings.Add("CANTIDAD2", "CANTIDAD2");
             tableMapping.ColumnMappings.Add("NOMBRE", "NOMBRE");
-            tableMapping.ColumnMappings.Add("REFERENCIA", "REFERENCIA");
-            tableMapping.ColumnMappings.Add("MAXIMO", "MAXIMO");
-            tableMapping.ColumnMappings.Add("MINIMO", "MINIMO");
-            tableMapping.ColumnMappings.Add("PRINCIPIO", "PRINCIPIO");
             tableMapping.ColumnMappings.Add("CODID", "CODID");
+            tableMapping.ColumnMappings.Add("Expr1", "Expr1");
             this._adapter.TableMappings.Add(tableMapping);
-            this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
-            this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = @"INSERT INTO [EXISTENCIA] ([CODIGO], [ALMACEN], [LOTE], [CLASE], [CANTIDAD], [VENCE], [COSTO], [PRECIO], [DEPOSITO], [EQUIPO], [SECCION], [CANTIDAD2], [NOMBRE], [REFERENCIA], [MAXIMO], [MINIMO], [PRINCIPIO]) VALUES (@CODIGO, @ALMACEN, @LOTE, @CLASE, @CANTIDAD, @VENCE, @COSTO, @PRECIO, @DEPOSITO, @EQUIPO, @SECCION, @CANTIDAD2, @NOMBRE, @REFERENCIA, @MAXIMO, @MINIMO, @PRINCIPIO)";
-            this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CODIGO", global::System.Data.SqlDbType.Char, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CODIGO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ALMACEN", global::System.Data.SqlDbType.Char, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ALMACEN", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@LOTE", global::System.Data.SqlDbType.Char, 0, global::System.Data.ParameterDirection.Input, 0, 0, "LOTE", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CLASE", global::System.Data.SqlDbType.Char, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CLASE", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CANTIDAD", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 12, 0, "CANTIDAD", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@VENCE", global::System.Data.SqlDbType.DateTime, 0, global::System.Data.ParameterDirection.Input, 0, 0, "VENCE", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@COSTO", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 2, "COSTO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@PRECIO", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 2, "PRECIO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@DEPOSITO", global::System.Data.SqlDbType.Char, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DEPOSITO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@EQUIPO", global::System.Data.SqlDbType.Char, 0, global::System.Data.ParameterDirection.Input, 0, 0, "EQUIPO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@SECCION", global::System.Data.SqlDbType.Char, 0, global::System.Data.ParameterDirection.Input, 0, 0, "SECCION", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CANTIDAD2", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 10, 2, "CANTIDAD2", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@NOMBRE", global::System.Data.SqlDbType.Char, 0, global::System.Data.ParameterDirection.Input, 0, 0, "NOMBRE", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@REFERENCIA", global::System.Data.SqlDbType.Char, 0, global::System.Data.ParameterDirection.Input, 0, 0, "REFERENCIA", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MAXIMO", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 2, "MAXIMO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MINIMO", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 18, 2, "MINIMO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@PRINCIPIO", global::System.Data.SqlDbType.Char, 0, global::System.Data.ParameterDirection.Input, 0, 0, "PRINCIPIO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1505,9 +971,9 @@ namespace RDLC_Csharp.reportes.DataSetProductoTableAdapters {
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT        CODIGO, ALMACEN, LOTE, CLASE, CANTIDAD, VENCE, COSTO, PRECIO, DEPOS" +
-                "ITO, EQUIPO, SECCION, CANTIDAD2, NOMBRE, REFERENCIA, MAXIMO, MINIMO, PRINCIPIO, " +
-                "CODID\r\nFROM            EXISTENCIA AS e";
+            this._commandCollection[0].CommandText = "SELECT        e.CODIGO, e.VENCE, e.COSTO, e.PRECIO, e.CODID, e.NOMBRE, i.CODIGO A" +
+                "S Expr1\r\nFROM            EXISTENCIA AS e INNER JOIN\r\n                         IN" +
+                "VENTARIO2 AS i ON e.CODIGO = i.CODIGO";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         
@@ -1515,7 +981,7 @@ namespace RDLC_Csharp.reportes.DataSetProductoTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DataSetProducto.EXISTENCIADataTable dataTable) {
+        public virtual int verProductos(DataSetProducto.EXISTENCIADataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -1534,175 +1000,6 @@ namespace RDLC_Csharp.reportes.DataSetProductoTableAdapters {
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DataSetProducto.EXISTENCIADataTable dataTable) {
-            return this.Adapter.Update(dataTable);
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DataSetProducto dataSet) {
-            return this.Adapter.Update(dataSet, "EXISTENCIA");
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(global::System.Data.DataRow dataRow) {
-            return this.Adapter.Update(new global::System.Data.DataRow[] {
-                        dataRow});
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(global::System.Data.DataRow[] dataRows) {
-            return this.Adapter.Update(dataRows);
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(
-                    string CODIGO, 
-                    string ALMACEN, 
-                    string LOTE, 
-                    string CLASE, 
-                    global::System.Nullable<decimal> CANTIDAD, 
-                    global::System.Nullable<global::System.DateTime> VENCE, 
-                    global::System.Nullable<decimal> COSTO, 
-                    global::System.Nullable<decimal> PRECIO, 
-                    string DEPOSITO, 
-                    string EQUIPO, 
-                    string SECCION, 
-                    global::System.Nullable<decimal> CANTIDAD2, 
-                    string NOMBRE, 
-                    string REFERENCIA, 
-                    global::System.Nullable<decimal> MAXIMO, 
-                    global::System.Nullable<decimal> MINIMO, 
-                    string PRINCIPIO) {
-            if ((CODIGO == null)) {
-                this.Adapter.InsertCommand.Parameters[0].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[0].Value = ((string)(CODIGO));
-            }
-            if ((ALMACEN == null)) {
-                this.Adapter.InsertCommand.Parameters[1].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[1].Value = ((string)(ALMACEN));
-            }
-            if ((LOTE == null)) {
-                this.Adapter.InsertCommand.Parameters[2].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[2].Value = ((string)(LOTE));
-            }
-            if ((CLASE == null)) {
-                this.Adapter.InsertCommand.Parameters[3].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[3].Value = ((string)(CLASE));
-            }
-            if ((CANTIDAD.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[4].Value = ((decimal)(CANTIDAD.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[4].Value = global::System.DBNull.Value;
-            }
-            if ((VENCE.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[5].Value = ((System.DateTime)(VENCE.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[5].Value = global::System.DBNull.Value;
-            }
-            if ((COSTO.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[6].Value = ((decimal)(COSTO.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[6].Value = global::System.DBNull.Value;
-            }
-            if ((PRECIO.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[7].Value = ((decimal)(PRECIO.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[7].Value = global::System.DBNull.Value;
-            }
-            if ((DEPOSITO == null)) {
-                this.Adapter.InsertCommand.Parameters[8].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[8].Value = ((string)(DEPOSITO));
-            }
-            if ((EQUIPO == null)) {
-                this.Adapter.InsertCommand.Parameters[9].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[9].Value = ((string)(EQUIPO));
-            }
-            if ((SECCION == null)) {
-                this.Adapter.InsertCommand.Parameters[10].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[10].Value = ((string)(SECCION));
-            }
-            if ((CANTIDAD2.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[11].Value = ((decimal)(CANTIDAD2.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[11].Value = global::System.DBNull.Value;
-            }
-            if ((NOMBRE == null)) {
-                this.Adapter.InsertCommand.Parameters[12].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[12].Value = ((string)(NOMBRE));
-            }
-            if ((REFERENCIA == null)) {
-                this.Adapter.InsertCommand.Parameters[13].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[13].Value = ((string)(REFERENCIA));
-            }
-            if ((MAXIMO.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[14].Value = ((decimal)(MAXIMO.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[14].Value = global::System.DBNull.Value;
-            }
-            if ((MINIMO.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[15].Value = ((decimal)(MINIMO.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[15].Value = global::System.DBNull.Value;
-            }
-            if ((PRINCIPIO == null)) {
-                this.Adapter.InsertCommand.Parameters[16].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[16].Value = ((string)(PRINCIPIO));
-            }
-            global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
-            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
-                        != global::System.Data.ConnectionState.Open)) {
-                this.Adapter.InsertCommand.Connection.Open();
-            }
-            try {
-                int returnValue = this.Adapter.InsertCommand.ExecuteNonQuery();
-                return returnValue;
-            }
-            finally {
-                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
-                    this.Adapter.InsertCommand.Connection.Close();
-                }
-            }
-        }
     }
     
     /// <summary>
@@ -1717,8 +1014,6 @@ namespace RDLC_Csharp.reportes.DataSetProductoTableAdapters {
         
         private UpdateOrderOption _updateOrder;
         
-        private EXISTENCIATableAdapter _eXISTENCIATableAdapter;
-        
         private bool _backupDataSetBeforeUpdate;
         
         private global::System.Data.IDbConnection _connection;
@@ -1731,20 +1026,6 @@ namespace RDLC_Csharp.reportes.DataSetProductoTableAdapters {
             }
             set {
                 this._updateOrder = value;
-            }
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
-            "ft.VSDesigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3" +
-            "a", "System.Drawing.Design.UITypeEditor")]
-        public EXISTENCIATableAdapter EXISTENCIATableAdapter {
-            get {
-                return this._eXISTENCIATableAdapter;
-            }
-            set {
-                this._eXISTENCIATableAdapter = value;
             }
         }
         
@@ -1767,10 +1048,6 @@ namespace RDLC_Csharp.reportes.DataSetProductoTableAdapters {
                 if ((this._connection != null)) {
                     return this._connection;
                 }
-                if (((this._eXISTENCIATableAdapter != null) 
-                            && (this._eXISTENCIATableAdapter.Connection != null))) {
-                    return this._eXISTENCIATableAdapter.Connection;
-                }
                 return null;
             }
             set {
@@ -1784,9 +1061,6 @@ namespace RDLC_Csharp.reportes.DataSetProductoTableAdapters {
         public int TableAdapterInstanceCount {
             get {
                 int count = 0;
-                if ((this._eXISTENCIATableAdapter != null)) {
-                    count = (count + 1);
-                }
                 return count;
             }
         }
@@ -1798,15 +1072,6 @@ namespace RDLC_Csharp.reportes.DataSetProductoTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private int UpdateUpdatedRows(DataSetProducto dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
-            if ((this._eXISTENCIATableAdapter != null)) {
-                global::System.Data.DataRow[] updatedRows = dataSet.EXISTENCIA.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
-                updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
-                if (((updatedRows != null) 
-                            && (0 < updatedRows.Length))) {
-                    result = (result + this._eXISTENCIATableAdapter.Update(updatedRows));
-                    allChangedRows.AddRange(updatedRows);
-                }
-            }
             return result;
         }
         
@@ -1817,14 +1082,6 @@ namespace RDLC_Csharp.reportes.DataSetProductoTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private int UpdateInsertedRows(DataSetProducto dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
-            if ((this._eXISTENCIATableAdapter != null)) {
-                global::System.Data.DataRow[] addedRows = dataSet.EXISTENCIA.Select(null, null, global::System.Data.DataViewRowState.Added);
-                if (((addedRows != null) 
-                            && (0 < addedRows.Length))) {
-                    result = (result + this._eXISTENCIATableAdapter.Update(addedRows));
-                    allAddedRows.AddRange(addedRows);
-                }
-            }
             return result;
         }
         
@@ -1835,14 +1092,6 @@ namespace RDLC_Csharp.reportes.DataSetProductoTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private int UpdateDeletedRows(DataSetProducto dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
-            if ((this._eXISTENCIATableAdapter != null)) {
-                global::System.Data.DataRow[] deletedRows = dataSet.EXISTENCIA.Select(null, null, global::System.Data.DataViewRowState.Deleted);
-                if (((deletedRows != null) 
-                            && (0 < deletedRows.Length))) {
-                    result = (result + this._eXISTENCIATableAdapter.Update(deletedRows));
-                    allChangedRows.AddRange(deletedRows);
-                }
-            }
             return result;
         }
         
@@ -1882,11 +1131,6 @@ namespace RDLC_Csharp.reportes.DataSetProductoTableAdapters {
             if ((dataSet.HasChanges() == false)) {
                 return 0;
             }
-            if (((this._eXISTENCIATableAdapter != null) 
-                        && (this.MatchTableAdapterConnection(this._eXISTENCIATableAdapter.Connection) == false))) {
-                throw new global::System.ArgumentException("Todos los TableAdapters administrados por un TableAdapterManager deben usar la mi" +
-                        "sma cadena de conexión.");
-            }
             global::System.Data.IDbConnection workConnection = this.Connection;
             if ((workConnection == null)) {
                 throw new global::System.ApplicationException("TableAdapterManager no contiene información de conexión. Establezca cada propieda" +
@@ -1919,15 +1163,6 @@ namespace RDLC_Csharp.reportes.DataSetProductoTableAdapters {
             try {
                 // ---- Prepare for update -----------
                 //
-                if ((this._eXISTENCIATableAdapter != null)) {
-                    revertConnections.Add(this._eXISTENCIATableAdapter, this._eXISTENCIATableAdapter.Connection);
-                    this._eXISTENCIATableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(workConnection));
-                    this._eXISTENCIATableAdapter.Transaction = ((global::System.Data.SqlClient.SqlTransaction)(workTransaction));
-                    if (this._eXISTENCIATableAdapter.Adapter.AcceptChangesDuringUpdate) {
-                        this._eXISTENCIATableAdapter.Adapter.AcceptChangesDuringUpdate = false;
-                        adaptersWithAcceptChangesDuringUpdate.Add(this._eXISTENCIATableAdapter.Adapter);
-                    }
-                }
                 // 
                 //---- Perform updates -----------
                 //
@@ -1985,10 +1220,6 @@ namespace RDLC_Csharp.reportes.DataSetProductoTableAdapters {
             finally {
                 if (workConnOpened) {
                     workConnection.Close();
-                }
-                if ((this._eXISTENCIATableAdapter != null)) {
-                    this._eXISTENCIATableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(revertConnections[this._eXISTENCIATableAdapter]));
-                    this._eXISTENCIATableAdapter.Transaction = null;
                 }
                 if ((0 < adaptersWithAcceptChangesDuringUpdate.Count)) {
                     global::System.Data.Common.DataAdapter[] adapters = new System.Data.Common.DataAdapter[adaptersWithAcceptChangesDuringUpdate.Count];

@@ -291,8 +291,6 @@ namespace RDLC_Csharp.reportes {
             
             private global::System.Data.DataColumn columnCODID;
             
-            private global::System.Data.DataColumn columnExpr1;
-            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public EXISTENCIADataTable() {
@@ -376,14 +374,6 @@ namespace RDLC_Csharp.reportes {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn Expr1Column {
-                get {
-                    return this.columnExpr1;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -419,7 +409,7 @@ namespace RDLC_Csharp.reportes {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public EXISTENCIARow AddEXISTENCIARow(string CODIGO, System.DateTime VENCE, decimal COSTO, decimal PRECIO, string NOMBRE, string Expr1) {
+            public EXISTENCIARow AddEXISTENCIARow(string CODIGO, System.DateTime VENCE, decimal COSTO, decimal PRECIO, string NOMBRE) {
                 EXISTENCIARow rowEXISTENCIARow = ((EXISTENCIARow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         CODIGO,
@@ -427,8 +417,7 @@ namespace RDLC_Csharp.reportes {
                         COSTO,
                         PRECIO,
                         NOMBRE,
-                        null,
-                        Expr1};
+                        null};
                 rowEXISTENCIARow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowEXISTENCIARow);
                 return rowEXISTENCIARow;
@@ -457,7 +446,6 @@ namespace RDLC_Csharp.reportes {
                 this.columnPRECIO = base.Columns["PRECIO"];
                 this.columnNOMBRE = base.Columns["NOMBRE"];
                 this.columnCODID = base.Columns["CODID"];
-                this.columnExpr1 = base.Columns["Expr1"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -475,8 +463,6 @@ namespace RDLC_Csharp.reportes {
                 base.Columns.Add(this.columnNOMBRE);
                 this.columnCODID = new global::System.Data.DataColumn("CODID", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnCODID);
-                this.columnExpr1 = new global::System.Data.DataColumn("Expr1", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnExpr1);
                 this.columnCODIGO.MaxLength = 17;
                 this.columnNOMBRE.MaxLength = 100;
                 this.columnCODID.AutoIncrement = true;
@@ -484,8 +470,6 @@ namespace RDLC_Csharp.reportes {
                 this.columnCODID.AutoIncrementStep = -1;
                 this.columnCODID.AllowDBNull = false;
                 this.columnCODID.ReadOnly = true;
-                this.columnExpr1.AllowDBNull = false;
-                this.columnExpr1.MaxLength = 17;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -719,17 +703,6 @@ namespace RDLC_Csharp.reportes {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string Expr1 {
-                get {
-                    return ((string)(this[this.tableEXISTENCIA.Expr1Column]));
-                }
-                set {
-                    this[this.tableEXISTENCIA.Expr1Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool IsCODIGONull() {
                 return this.IsNull(this.tableEXISTENCIA.CODIGOColumn);
             }
@@ -954,7 +927,6 @@ namespace RDLC_Csharp.reportes.DataSetProductoTableAdapters {
             tableMapping.ColumnMappings.Add("PRECIO", "PRECIO");
             tableMapping.ColumnMappings.Add("NOMBRE", "NOMBRE");
             tableMapping.ColumnMappings.Add("CODID", "CODID");
-            tableMapping.ColumnMappings.Add("Expr1", "Expr1");
             this._adapter.TableMappings.Add(tableMapping);
         }
         
@@ -971,9 +943,8 @@ namespace RDLC_Csharp.reportes.DataSetProductoTableAdapters {
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT        e.CODIGO, e.VENCE, e.COSTO, e.PRECIO, e.CODID, e.NOMBRE, i.CODIGO A" +
-                "S Expr1\r\nFROM            EXISTENCIA AS e INNER JOIN\r\n                         IN" +
-                "VENTARIO2 AS i ON e.CODIGO = i.CODIGO";
+            this._commandCollection[0].CommandText = "SELECT        CODIGO, VENCE, COSTO, PRECIO, CODID, NOMBRE\r\nFROM            EXISTE" +
+                "NCIA";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         
@@ -981,7 +952,7 @@ namespace RDLC_Csharp.reportes.DataSetProductoTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int verProductos(DataSetProducto.EXISTENCIADataTable dataTable) {
+        public virtual int Fill(DataSetProducto.EXISTENCIADataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();

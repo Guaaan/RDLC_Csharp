@@ -19,6 +19,8 @@ namespace RDLC_Csharp.reportes
 
         private void Reporte_Load(object sender, EventArgs e)
         {
+            // TODO: esta línea de código carga datos en la tabla 'DataSetProducto.EXISTENCIA' Puede moverla o quitarla según sea necesario.
+            this.EXISTENCIATableAdapter.Fill(this.DataSetProducto.EXISTENCIA);
 
             this.reportViewer1.RefreshReport();
         }

@@ -15,6 +15,13 @@ namespace RDLC_Csharp
         public Form1()
         {
             InitializeComponent();
+            
+        }
+
+        private void btnReporte_Click(object sender, EventArgs e)
+        {
+            reportes.Reporte abrirReporte = new reportes.Reporte();
+            abrirReporte.Show();
         }
     }
 }

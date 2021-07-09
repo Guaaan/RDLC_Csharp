@@ -29,10 +29,17 @@ namespace RDLC_Csharp.reportes
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.panel1 = new System.Windows.Forms.Panel();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.DataSetProducto = new RDLC_Csharp.reportes.DataSetProducto();
+            this.EXISTENCIABindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.EXISTENCIATableAdapter = new RDLC_Csharp.reportes.DataSetProductoTableAdapters.EXISTENCIATableAdapter();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DataSetProducto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EXISTENCIABindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -55,11 +62,29 @@ namespace RDLC_Csharp.reportes
             // reportViewer1
             // 
             this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            reportDataSource1.Name = "DataSet";
+            reportDataSource1.Value = this.EXISTENCIABindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "RDLC_Csharp.reportes.Reporte.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(0, 0);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
             this.reportViewer1.Size = new System.Drawing.Size(800, 426);
             this.reportViewer1.TabIndex = 0;
+            // 
+            // DataSetProducto
+            // 
+            this.DataSetProducto.DataSetName = "DataSetProducto";
+            this.DataSetProducto.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // EXISTENCIABindingSource
+            // 
+            this.EXISTENCIABindingSource.DataMember = "EXISTENCIA";
+            this.EXISTENCIABindingSource.DataSource = this.DataSetProducto;
+            // 
+            // EXISTENCIATableAdapter
+            // 
+            this.EXISTENCIATableAdapter.ClearBeforeFill = true;
             // 
             // Reporte
             // 
@@ -75,6 +100,8 @@ namespace RDLC_Csharp.reportes
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Reporte_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.DataSetProducto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EXISTENCIABindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -85,5 +112,8 @@ namespace RDLC_Csharp.reportes
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Panel panel1;
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+        private System.Windows.Forms.BindingSource EXISTENCIABindingSource;
+        private DataSetProducto DataSetProducto;
+        private DataSetProductoTableAdapters.EXISTENCIATableAdapter EXISTENCIATableAdapter;
     }
 }

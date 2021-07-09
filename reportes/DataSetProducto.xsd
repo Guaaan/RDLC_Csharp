@@ -9,12 +9,11 @@
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EXISTENCIATableAdapter" GeneratorDataComponentClassName="EXISTENCIATableAdapter" Name="EXISTENCIA" UserDataComponentName="EXISTENCIATableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="SAES_ADMINISTRATIVOFDConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="verProductos" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="verProductos" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="verProductos">
+              <DbSource ConnectionRef="SAES_ADMINISTRATIVOFDConnectionString (Settings)" DbObjectName="SAES_ADMINISTRATIVOFD.dbo.EXISTENCIA" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
                 <SelectCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="true">
-                    <CommandText>SELECT        e.CODIGO, e.VENCE, e.COSTO, e.PRECIO, e.CODID, e.NOMBRE, i.CODIGO AS Expr1
-FROM            EXISTENCIA AS e INNER JOIN
-                         INVENTARIO2 AS i ON e.CODIGO = i.CODIGO</CommandText>
+                    <CommandText>SELECT        CODIGO, VENCE, COSTO, PRECIO, CODID, NOMBRE
+FROM            EXISTENCIA</CommandText>
                     <Parameters />
                   </DbCommand>
                 </SelectCommand>
@@ -27,7 +26,6 @@ FROM            EXISTENCIA AS e INNER JOIN
               <Mapping SourceColumn="PRECIO" DataSetColumn="PRECIO" />
               <Mapping SourceColumn="NOMBRE" DataSetColumn="NOMBRE" />
               <Mapping SourceColumn="CODID" DataSetColumn="CODID" />
-              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
             </Mappings>
             <Sources />
           </TableAdapter>
@@ -60,13 +58,6 @@ FROM            EXISTENCIA AS e INNER JOIN
                 </xs:simpleType>
               </xs:element>
               <xs:element name="CODID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnCODID" msprop:Generator_ColumnPropNameInRow="CODID" msprop:Generator_ColumnPropNameInTable="CODIDColumn" msprop:Generator_UserColumnName="CODID" type="xs:decimal" />
-              <xs:element name="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1">
-                <xs:simpleType>
-                  <xs:restriction base="xs:string">
-                    <xs:maxLength value="17" />
-                  </xs:restriction>
-                </xs:simpleType>
-              </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>

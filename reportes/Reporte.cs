@@ -16,5 +16,11 @@ namespace RDLC_Csharp.reportes
         {
             InitializeComponent();
         }
+
+        private void Reporte_Load(object sender, EventArgs e)
+        {
+
+            this.reportViewer1.RefreshReport();
+        }
     }
 }

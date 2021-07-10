@@ -75,6 +75,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSetpRUEBA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetpRUEBA.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +129,17 @@
     </None>
     <None Include="DataSet.xss">
       <DependentUpon>DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetpRUEBA.xsc">
+      <DependentUpon>DataSetpRUEBA.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetpRUEBA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetpRUEBA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetpRUEBA.xss">
+      <DependentUpon>DataSetpRUEBA.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

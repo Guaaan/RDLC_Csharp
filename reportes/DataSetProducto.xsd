@@ -37,7 +37,7 @@ FROM            EXISTENCIA</CommandText>
   <xs:element name="DataSetProducto" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetProducto" msprop:Generator_UserDSName="DataSetProducto">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="EXISTENCIA" msprop:Generator_TableClassName="EXISTENCIADataTable" msprop:Generator_TableVarName="tableEXISTENCIA" msprop:Generator_TablePropName="EXISTENCIA" msprop:Generator_RowDeletingName="EXISTENCIARowDeleting" msprop:Generator_RowChangingName="EXISTENCIARowChanging" msprop:Generator_RowEvHandlerName="EXISTENCIARowChangeEventHandler" msprop:Generator_RowDeletedName="EXISTENCIARowDeleted" msprop:Generator_UserTableName="EXISTENCIA" msprop:Generator_RowChangedName="EXISTENCIARowChanged" msprop:Generator_RowEvArgName="EXISTENCIARowChangeEvent" msprop:Generator_RowClassName="EXISTENCIARow">
+        <xs:element name="EXISTENCIA" msprop:Generator_TableClassName="EXISTENCIADataTable" msprop:Generator_TableVarName="tableEXISTENCIA" msprop:Generator_RowChangedName="EXISTENCIARowChanged" msprop:Generator_TablePropName="EXISTENCIA" msprop:Generator_RowDeletingName="EXISTENCIARowDeleting" msprop:Generator_RowChangingName="EXISTENCIARowChanging" msprop:Generator_RowEvHandlerName="EXISTENCIARowChangeEventHandler" msprop:Generator_RowDeletedName="EXISTENCIARowDeleted" msprop:Generator_RowClassName="EXISTENCIARow" msprop:Generator_UserTableName="EXISTENCIA" msprop:Generator_RowEvArgName="EXISTENCIARowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="CODIGO" msprop:Generator_ColumnVarNameInTable="columnCODIGO" msprop:Generator_ColumnPropNameInRow="CODIGO" msprop:Generator_ColumnPropNameInTable="CODIGOColumn" msprop:Generator_UserColumnName="CODIGO" minOccurs="0">
@@ -59,6 +59,10 @@ FROM            EXISTENCIA</CommandText>
               </xs:element>
               <xs:element name="CODID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnCODID" msprop:Generator_ColumnPropNameInRow="CODID" msprop:Generator_ColumnPropNameInTable="CODIDColumn" msprop:Generator_UserColumnName="CODID" type="xs:decimal" />
             </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
           </xs:complexType>
         </xs:element>
       </xs:choice>
